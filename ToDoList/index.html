@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <h1>Pin down your tasks!</h1>
+        <form class="new-task-form">
+            <input type="text" class="new-task-input" placeholder="What have you planned today?"/>
+            <input type="submit" class="new-task-submit" value="Add"/>
+        </form>
+   </header>
+   <main>
+    <section class="task-list">
+        <h2>Pending tasks!</h2>
+        <div id="tasks">
+        </div>
+    </section>
+    <section class="task-completed">
+        <h2>Yay! You Completed</h2>
+        <div id="tasks-com">
+        </div>
+    </section>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
